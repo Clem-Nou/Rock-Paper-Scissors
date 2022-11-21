@@ -18,7 +18,7 @@ const handleclick = e => {
 const generateComputerChoice = () => {
   const randomChoice = choices[Math.floor(Math.random() * choices.length)]
   computerChoice = randomChoice
-  computerChoiceDisplay.innerHTML = 'Computer choice:' + randomChoice
+  computerChoiceDisplay.innerHTML = 'Computer choice: ' + randomChoice
 }
 
 for (let i = 0; i < choices.length; i++) {
